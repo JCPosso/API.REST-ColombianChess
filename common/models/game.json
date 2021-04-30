@@ -1,0 +1,34 @@
+{
+  "name": "game",
+  "plural": "games",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "playerA": {
+      "type": "object",
+      "required": true
+    },
+    "playerB": {
+      "type": "object",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "site": {
+      "type": "object",
+      "required": true
+    },
+    "winner": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

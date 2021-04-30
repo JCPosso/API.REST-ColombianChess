@@ -1,0 +1,30 @@
+{
+  "name": "site",
+  "plural": "sites",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "direction": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "boolean",
+      "default": false
+    },
+    "photo": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

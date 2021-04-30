@@ -1,0 +1,36 @@
+{
+  "name": "player",
+  "plural": "players",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "number",
+      "required": true
+    },
+    "alias": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "string"
+    },
+    "state": {
+      "type": "boolean",
+      "default": false
+    },
+    "team": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

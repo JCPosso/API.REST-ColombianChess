@@ -1,0 +1,27 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "team": 3,
+    "player": 1,
+    "game": 1,
+    "site": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "team": {
+      "1": "{\"name\":\"LogicalTeam\",\"logo\":\"img.jpg\",\"state\":true,\"id\":1}",
+      "2": "{\"name\":\"bogotaChess\",\"logo\":\"img2.jpg\",\"state\":true,\"id\":2}"
+    },
+    "player": {},
+    "game": {},
+    "site": {}
+  }
+}
